@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'rafaelsuzano/work:latest' }
+        docker { image 'rafaelsuzano/work' }
     }
     stages {
         stage('Test') {

@@ -1,0 +1,19 @@
+{
+  "name": "estudodocker",
+  "version": "1.0.1",
+  "description": "teste docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelsuzano/EstudoDocker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelsuzano/EstudoDocker/issues"
+  },
+  "homepage": "https://github.com/rafaelsuzano/EstudoDocker#readme"
+}

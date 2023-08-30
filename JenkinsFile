@@ -5,13 +5,13 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'python --version'
+                sh 'npx cypress install --force'
             }
         }
     
         stage('Executa') {
             steps {
-                sh 'python teste.py'
+                sh 'npx cypress run'
             }
         }
     

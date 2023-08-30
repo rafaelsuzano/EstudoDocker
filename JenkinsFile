@@ -5,7 +5,10 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'npx cypress install --force'
+                sh '''npx cypress install --force
+                      apt-get install npm  
+
+                '''
             }
         }
     

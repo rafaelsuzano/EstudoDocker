@@ -8,5 +8,12 @@ pipeline {
                 sh 'python --version'
             }
         }
+    
+        stage('Executa') {
+            steps {
+                sh 'python teste.py'
+            }
+        }
+    
     }
 }
